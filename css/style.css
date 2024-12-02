@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
  *{
     margin: 0;
     padding: 0;
@@ -7,4 +11,171 @@
 body{
     font-family: "Inter", sans-serif;
  }
+ header{
+   background: linear-gradient(160deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+   
+ }
+ .container{
+    max-width: 85%;
+    margin:  auto;
+   
+ }
+.banner-image-content img{
+   width: 100%;
+   
+}
+ .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    
+
+ }
+.nav-text-content{
+    color: rgb(230, 83, 60);
+
+    font-size: 26px;
+    font-weight: 800;
+    
+    
+}
  
+ .nav-links{
+    display: flex;
+   
+   gap: 40px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 7px;
+ justify-content: space-evenly;
+ align-items: center;
+ 
+ }
+ .nav-links p{
+    color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 400;
+ } 
+
+ #home{
+    border-radius: 46px;
+
+background: rgb(230, 83, 60);
+padding: 6px;
+ } 
+/* banner */
+ .banner-section{
+ display: flex;
+ justify-content: space-between;
+ align-items: center; 
+ margin-top: 50px; 
+ gap: 20px;
+ }
+
+ .banner-text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:520px;
+ } 
+ .banner-text-content h2{
+    color: rgb(255, 255, 255);
+
+font-size: 78px;
+font-weight: 900;
+line-height: 120%
+ }
+
+ #shape{
+   font-family: 'Miama', sans-serif;
+  font-size: 120px;
+                                                
+ }
+
+ .banner-text-content p{
+   color: rgba(14, 13, 13, 0.543);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px
+ } 
+
+ .btn-primary{
+   border-radius: 42px;
+
+background: rgb(230, 83, 60);
+color: rgb(255, 255, 255);
+padding: 16px 40px 16px 40px;
+font-size: 18px;
+font-weight: 600;
+border: 1px solid rgb(230, 83, 60);
+cursor: pointer;
+margin-right: 10px;
+ }
+ .btn-light{
+   border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+padding: 16px 40px 16px 40px;
+background-color: transparent;
+cursor: pointer;
+ } 
+.banner-image-content{
+   position: relative;
+}
+.image-card-one{
+   position: absolute;
+   left: 50%;
+   top: 40%;
+   
+
+}
+.image-card-two{
+   position: absolute;
+   left: -35%;
+   top: 70%;
+
+}
+ .image-card-one , .image-card-two{ 
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+width: 190px;
+height: 98px;
+text-align: center;
+padding: 12px;
+ }
+.card-text{
+   color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+
+ }
+ .card-text-light{
+   font-size: 13px;
+   font-weight: 400;
+   color: rgba(14, 13, 13, 0.543);
+
+
+ }
+
+ .cricel{
+   width: 30px;
+height: 30px;
+background: rgb(230, 83, 60);
+border-radius: 50%; 
+position: absolute;
+left: 12px;
+top: 25px;
+ } 
+
+.hum-menu{
+   display: none;
+}
