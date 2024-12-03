@@ -17,7 +17,9 @@ body{
  }
  .container{
     max-width: 85%;
-    margin:  auto;
+    margin: 0 auto;
+ 
+
    
  }
 .banner-image-content img{
@@ -65,6 +67,11 @@ font-weight: 400;
 background: rgb(230, 83, 60);
 padding: 6px;
  } 
+ .hum-menu{
+   display: none;
+}  
+ /* nab end here */
+
 /* banner */
  .banner-section{
  display: flex;
@@ -175,7 +182,70 @@ position: absolute;
 left: 12px;
 top: 25px;
  } 
+/* banner end here */
 
-.hum-menu{
-   display: none;
+/*  Your Habits  style start here*/
+main{
+   background-color: black;
+}
+.habit-text-content{
+   padding: 60px 0 30px;
+   text-align: center;
+   
+   width: 630px;
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+}
+.habit-text-content h2{
+   color: rgb(255, 255, 255);
+
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+}
+.habit-text-content p{
+   color: rgba(255, 255, 255, 0.5);
+   font-family: Inter;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;;
+} 
+
+.habit-card{
+   width: 231px;
+  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+}
+.habit-image{
+   width: 150px;
+   border-radius: 50%;
+}
+.habit-card h5{
+   color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+}
+.habit-card p{
+   color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+}
+
+.habit-card-container{
+   display: grid;
+   grid-template-columns: repeat(4 , 1fr);
+   gap: 20px;
+   margin: 0px 40px;
+   align-content: center;
 }
