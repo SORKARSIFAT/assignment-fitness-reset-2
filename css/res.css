@@ -113,6 +113,22 @@
      .our-team-card-container{
         grid-template-columns: repeat(1 ,1fr);
      }
+     .footer-main{
+        flex-direction: column;
+        justify-content: flex-start;
+align-items: flex-start;
+       
+     }
+     .footer-second-text-content{
+        width: 150px;
+        margin: 0 auto;
+       
+        
+     }
+     .footer-text-content h2 {
+      font-size: 20px;
+      
+      }
 }
 
 /* tablet */
