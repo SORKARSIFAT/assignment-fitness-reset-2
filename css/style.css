@@ -248,4 +248,130 @@ text-align: center;
    gap: 20px;
    margin: 0px 40px;
    align-content: center;
+} 
+
+.run-miles-main{
+border-radius: 18px;
+background: rgb(34, 34, 34);
+margin-top: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+
 }
+.run-text-content{
+   width: 443px;
+   padding: 50px 40px;
+   display: flex;
+   flex-direction: column;
+  gap: 20px;
+  
+}
+.run-text-content h5{
+   color: rgb(255, 255, 255);
+
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+}
+.run-text-content p{
+   color: rgba(255, 255, 255, 0.5);
+
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.run-image{
+   width: 443px;
+   padding: 30px 32px;
+}
+.run-image img{
+   width: 100%;
+   border-radius: 18px;
+
+
+}
+
+/* Trainings and Exercises */
+.trainings-main{
+   padding-top: 60px;
+   color: white; 
+   padding-bottom: 50px;
+}
+.trainings-text-content{
+   display: flex;
+   flex-direction: column;
+   width: 671px;
+   justify-content: flex-start;
+  align-items: flex-start;
+   gap: 14px;
+}
+.trainings-text-content h5{
+   color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+}
+.trainings-text-content p{
+   color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+}
+.trainings-card-container{
+   margin-top: 60px;
+   display: grid;
+  grid-template-areas:
+    "a b b c "
+    "d d e f";
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.trainings-card{
+   position: relative;
+}
+.trainings-card p{
+   
+   position: absolute;
+    
+    color:rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+   
+}
+.trainings-card img{
+   width: 100%;
+   height: 250px;
+  
+  display: block;
+   
+} 
+
+.one-card p , 
+.there-card p,
+.four-card p ,
+.five-card p,
+.six-card p
+{
+ top: 80%;
+ left: 35%;
+
+} 
+
+.two-card p {
+   top: 20%;
+   left: 25%;
+} 
+
+.one-card img{
+   background:  rgba(18, 120, 215, 0.5);
+   background-blend-mode: overlay;
+}
+
+
